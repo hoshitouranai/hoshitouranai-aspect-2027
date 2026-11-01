@@ -1,25 +1,30 @@
 # Hoshitouranai — 2027 Aspect Analysis
 
-An educational Japanese-language web application exploring **666 three-body aspect configurations** in 2027. Browse the year by date and explore each configuration with explanatory text and visual aspect diagrams.
+A completed **2027 Japanese-language educational astrology reference application**, presented as a static HTML page. It contains **666 three-body aspect entries and 666 SVG aspect diagrams**, with explanatory text.
 
-## Open the application
+## Open the 2027 application
 
-Open **`index.html`** in a desktop web browser. The interface and educational content are in Japanese. Repository filenames and documentation are in English for international navigation.
+Open `index.html` in a desktop browser. The saved 2027 interface is designed primarily for Microsoft Edge on Windows. It supports browsing by month/date, reading explanations, and expanding aspect diagrams.
 
-## About this edition
+The finished artifact for this edition is the **2027 HTML itself**. It does not require Python or a running Swiss Ephemeris service in the browser.
 
-- Year: **2027**
-- Content: **666 aspect entries and 666 SVG diagrams**
-- Features: date/month browsing, aspect explanations, and expandable visual diagrams
-- Time standard in the underlying project: **Japan Standard Time (JST)**
-- Intended platform: desktop browsers, particularly Microsoft Edge on Windows
+## Repository files
 
-This repository package preserves the saved 2027 HTML without modifying its interface, diagrams, styles, calculations, or explanatory text. The current edition is separate from future-year automation work.
+- `index.html` — approved 2027 static application; do not change without the owner's express approval
+- `SHA256_MANIFEST.json` — hashes and sizes of the **original private upload archive**; the manifest does not cover later changes
+- `SOURCE_AND_LICENSE_NOTES.md` — source provenance and pre-publication notes
+- `LICENSE` — GNU Affero General Public License version 3 text
 
-## File integrity
+## Source and licensing status
 
-`SHA256_MANIFEST.json` records the exact hashes and sizes of the files in this archive. It is intended to prevent accidentally replacing the current 2027 HTML with an earlier candidate.
+Swiss Ephemeris / pyswisseph was used in the wider project for astronomical calculations. Historical Python calculation and integration scripts are preserved separately for review, but the exact corresponding generation-source package for the approved 2027 HTML has **not yet been established**. Earlier experimental HTML templates must not be represented as the generator of the finished edition.
 
-## Copyright and distribution
+The presence of the AGPL-3.0 license text in `LICENSE` **does not by itself establish** that all applicable source-distribution and third-party license requirements have been fulfilled, or that every original component has been licensed under AGPL-3.0.
 
-Copyright © Hoshitouranai. The application's original writing and presentation remain subject to their respective rights. The wider project uses Swiss Ephemeris-related calculations; the legal terms and complete corresponding source distribution must be verified before changing a private repository to public. **This archive is for upload to the existing private GitHub repository and is not a verified public AGPL source release.**
+This repository is private while publication requirements are being checked. Do not make it public or deploy it without the owner's express approval.
+
+## Scope
+
+This edition is **2027 only**. Automatic regeneration for 2028 or later is a separate project, **not a prerequisite for recognizing the existing 2027 HTML as the finished edition**.
+
+Copyright © Hoshitouranai. Original writing, design, and presentation remain subject to the applicable rights and licensing decisions.
