@@ -1,0 +1,31 @@
+{
+  "project": "hoshitouranai-aspect-2027",
+  "purpose": "private_github_upload",
+  "html_provenance": {
+    "source_saved_name": "index.html",
+    "source_bytes": 7848768,
+    "sha256": "9a0b96bbae3d0da40f24e243e2e61f380bd82d76b3ba46333fd85a720eeac21c"
+  },
+  "measured_checks": {
+    "aspect_cards": 666,
+    "distinct_card_ids": 666,
+    "svg_diagrams": 666,
+    "data_priority_attributes": 666,
+    "draft_label_removals_relative_to_prior_candidate": 43,
+    "header_style_present": true
+  },
+  "files": {
+    "index.html": {
+      "sha256": "9a0b96bbae3d0da40f24e243e2e61f380bd82d76b3ba46333fd85a720eeac21c",
+      "bytes": 7848768
+    },
+    "README.md": {
+      "sha256": "517e91bc133b512bcc9c8f910369b634215f8b99d603e7073a8c01fe6bd70c9b",
+      "bytes": 1681
+    },
+    "SOURCE_AND_LICENSE_NOTES.md": {
+      "sha256": "64bd30e6b55ff06537d853cdf8cfdca0841b14392d987922a7de8eabb99fcbca",
+      "bytes": 658
+    }
+  }
+}
